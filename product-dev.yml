@@ -1,0 +1,9 @@
+spring:
+ datasource:
+    name: product-datasource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/spring_cloud_sell?useUnicode=true&allowMultiQueries=true&useSSL=false
+    username: root
+    password: fxl421125
+  jpa:
+    show-sql: true
