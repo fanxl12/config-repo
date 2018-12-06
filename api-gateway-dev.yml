@@ -4,10 +4,6 @@ zuul:
       path: /myProduct/**
       serviceId: product
       sensitiveHeaders:
-    #简洁写法
-#    product: /myProduct/**
-  ignored-patterns:
-    - /**/product/listForOrder
 management:
   endpoints:
     web:
