@@ -13,7 +13,7 @@ zuul:
     #简洁写法
 #    product: /myProduct/**
   ignored-patterns:
-    - /**/product/decreaseStock
+    - /**/product/listForOrder
 management:
   endpoints:
     web:
