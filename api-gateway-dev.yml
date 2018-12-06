@@ -3,7 +3,6 @@ zuul:
     aaa:
       path: /myProduct/**
       serviceId: product
-      sensitiveHeaders:
 management:
   endpoints:
     web:
