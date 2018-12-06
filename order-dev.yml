@@ -7,6 +7,10 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/spring_cloud_sell?useUnicode=true&allowMultiQueries=true&useSSL=false
     username: root
     password: fxl421125
+  redis:
+    host: localhost
+    password: fxl421125
+    port: 6379  
   jpa:
     show-sql: true
 env: dev13  
