@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    name: order-datasource
+    password: fxl421125
+    url: jdbc:mysql://127.0.0.1:3306/spring_cloud_sell?useUnicode=true&allowMultiQueries=true&useSSL=false
+    username: root
+  jpa:
+    show-sql: true
+  rabbitmq:
+    host: 192.168.99.100
+  redis:
+    host: localhost
+    password: fxl421125
+    port: 6379
